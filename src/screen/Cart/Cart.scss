@@ -1,0 +1,82 @@
+.cart-container {
+    border-radius: 50px;
+    margin: auto;
+    background-color: #fefeff;
+    padding: 1rem 2.5rem;
+    min-height: 800px;
+
+    .cart-header {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2rem;
+
+
+
+
+        .profileImg {
+            border-radius: 100%;
+            width: 3rem;
+            height: 3rem;
+
+        }
+
+
+
+        .title {
+            color: #1b335a;
+            font-size: 1.2rem;
+            margin-bottom: .2rem;
+        }
+
+
+
+        .menu {
+            font-size: 1.5rem;
+            color: #f9b7c1;
+            background-color: #ffffff;
+            padding: 1rem 1rem;
+            border-radius: 100%;
+            box-shadow: 2px 2px 8px rgba(250, 250, 255, 255);
+        }
+
+    }
+
+
+    .total-container {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 1rem;
+        margin-bottom: 120px;
+
+        .totla-section {
+
+            .total-title {
+
+                font-size: 1.5rem;
+                color: #c1c7d3;
+                font-weight: bold;
+            }
+
+            .total {
+                font-size: 1.2rem;
+                color: #000000;
+                font-weight: bold;
+            }
+        }
+
+        .totla-btn {
+            font-size: 1rem;
+            color: #ffffff;
+            background-color: #f9b7c1;
+            border: none;
+            outline: none;
+            padding: 1.5rem 0;
+            width: 50%;
+            border-radius: 35px
+        }
+    }
+}
